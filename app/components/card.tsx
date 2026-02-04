@@ -11,7 +11,7 @@ type CardProps = {
 export function Card({ title, description, hrefMessage, href, price}: CardProps) {
   const content = (
     <article className="mb-4 group rounded-2xl border border-neutral-200/70 bg-transparent p-5 transition hover:border-neutral-300 dark:border-neutral-800/70 dark:hover:border-neutral-700">
-      <div className="flex items-start justify-between gap-3">
+      <div className="column items-start justify-between gap-3">
         <h3 className="text-base font-semibold tracking-tight text-neutral-900 dark:text-neutral-100">
           {title}
         </h3>
@@ -24,11 +24,9 @@ export function Card({ title, description, hrefMessage, href, price}: CardProps)
       <p className="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
         {description}
       </p>
-      {/*
       <span className="mt-4 inline-flex items-center text-xs font-medium text-neutral-500 transition group-hover:text-neutral-800 dark:text-neutral-500 dark:group-hover:text-neutral-200">
         {hrefMessage} →
       </span>
-      */}
     </article>
   )
 

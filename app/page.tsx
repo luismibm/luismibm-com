@@ -8,10 +8,10 @@ export default function Page() {
         luismibm
       </h1>
       <p>
-        {"Ey! Has llegado muy pronto."}
+        {"Creo que el valor del software reside en la capacidad de soluciónar problemas reales."}
       </p>
       <p className="mb-8">
-        {"Aún estoy pensando como organizar esta página."}
+        {"Por eso, decidí estudiar para convertirme en la persona capaz de construir esas soluciones."}
       </p>
 
       <h2 className="mb-4 text-2xl font-semibold tracking-tighter">
