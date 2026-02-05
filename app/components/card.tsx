@@ -16,12 +16,12 @@ export function Card({ title, description, hrefMessage, href, price}: CardProps)
           {title}
         </h3>
         {price ? (
-          <span className="text-xs text-neutral-500 dark:text-neutral-400">
+          <span className="text-xs text-neutral-500 dark:text-neutral-200">
             {price}
           </span>
         ) : null}
       </div>
-      <p className="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+      <p className="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-200">
         {description}
       </p>
       <span className="mt-4 inline-flex items-center text-xs font-medium text-neutral-500 transition group-hover:text-neutral-800 dark:text-neutral-500 dark:group-hover:text-neutral-200">

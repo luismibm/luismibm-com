@@ -8,7 +8,7 @@ export default function Page() {
         luismibm
       </h1>
       <p>
-        {"El valor del software reside en la capacidad de soluciónar problemas reales."}
+        {"El valor del software reside en la capacidad de solucionar problemas reales."}
       </p>
       <p className="mb-8">
         {"Por eso, decidí estudiar para ser la persona capaz de construir esas soluciones."}
@@ -26,7 +26,7 @@ export default function Page() {
       />
       <Card
           title="MVP (Minimum Viable Product)"
-          description="Tu idea en una realidad en menos de un mes."
+          description="Tu idea hecha realidad en menos de un mes."
           hrefMessage='Más información'
           href="/blog"
           price="desde 1399€"
@@ -38,7 +38,7 @@ export default function Page() {
         {"Crees que hay otra forma en la que puedo ayudarte?"}
       </p>
       <p>
-        {"Mándame un correo a "} <a className='text-decoration-line: underline' href="mailto:luibenmor@gmail.com">luibenmor@gmail.com</a>
+        {"Mándame un correo a "} <a className='text-decoration-line: underline' href="mailto:contacto@luismibm.com">contacto@luismibm.com</a>
       </p>
       {/*
       <div className="my-8">
