@@ -12,15 +12,15 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: 'luismibm',
-    template: '%s @ luismibm',
+    template: 'luismibm @ %s',
   },
-  description: 'This is my portfolio.',
+  description: 'Freelance Software Developer.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'luismibm',
+    description: 'Freelance Software Developer.',
     url: baseUrl,
-    siteName: 'My Portfolio',
-    locale: 'en_US',
+    siteName: 'luismibm',
+    locale: 'es_ES',
     type: 'website',
   },
   robots: {
@@ -45,7 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={cx(
         'text-black bg-white dark:text-white dark:bg-black',
         GeistSans.variable,
